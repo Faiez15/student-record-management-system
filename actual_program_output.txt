@@ -1,0 +1,60 @@
+===== BST =====
+BST - Student Record Search
+Records inserted: 30
+Inorder traversal: 105 110 115 120 125 130 135 140 145 150 155 160 165 170 175 180 185 190 195 200 205 210 215 220 225 230 235 240 245 250 
+Tree height (levels): 30
+Successful search 175: FOUND; comparisons = 0
+Unsuccessful search 999: NOT FOUND; comparisons = 0
+After inserting 252, search: FOUND; comparisons = 0
+Height after insertion (levels): 31
+
+===== AVL =====
+AVL - Student Record Search
+Records inserted: 30
+Inorder traversal: 105 110 115 120 125 130 135 140 145 150 155 160 165 170 175 180 185 190 195 200 205 210 215 220 225 230 235 240 245 250 
+Tree height (levels): 5
+Successful search 175: FOUND; comparisons = 5
+Unsuccessful search 999: NOT FOUND; comparisons = 5
+After inserting 252, search: FOUND; comparisons = 5
+Height after insertion (levels): 5
+
+===== HASHING =====
+Hashing with Linear Probing - Student Record Search
+Records inserted: 30
+Table size: 61; hash function: key % 61
+Total insertion collisions: 0
+Occupied table slots:
+Index  1 : 245
+Index  2 : 185
+Index  3 : 125
+Index  6 : 250
+Index  7 : 190
+Index  8 : 130
+Index 12 : 195
+Index 13 : 135
+Index 17 : 200
+Index 18 : 140
+Index 22 : 205
+Index 23 : 145
+Index 27 : 210
+Index 28 : 150
+Index 32 : 215
+Index 33 : 155
+Index 37 : 220
+Index 38 : 160
+Index 42 : 225
+Index 43 : 165
+Index 44 : 105
+Index 47 : 230
+Index 48 : 170
+Index 49 : 110
+Index 52 : 235
+Index 53 : 175
+Index 54 : 115
+Index 57 : 240
+Index 58 : 180
+Index 59 : 120
+Successful search 175: FOUND; comparisons = 0
+Unsuccessful search 999: NOT FOUND; comparisons = 0
+After inserting 252, search: FOUND; comparisons = 0
+Total collisions including insertion of 252: 1
